@@ -3,6 +3,7 @@ import ContactsTable from "./components/ContactsTable";
 import SearchBar from "./components/SearchBar";
 import { useContacts } from "./hooks/useContacts";
 
+
 export default function App() {
   const { filtered, query, setQuery, addContact, updateContact } = useContacts();
 
